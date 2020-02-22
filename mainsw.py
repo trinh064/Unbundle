@@ -51,7 +51,7 @@ def compress(og):
                     #print(len(og),i)
 
                 bund.cur=bund.cur+1
-                bund.insert('>')
+                bund.insert(' ')
                 #print(">>>> END")
                 #print(bund.newtext)
                 bund.cur=bund.cur+1
