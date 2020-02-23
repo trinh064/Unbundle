@@ -27,7 +27,7 @@ class unbundle_text:
             if word[0]=="<":
 
                 for j in range(len(word)):
-                    if word[j]==">":
+                    if word[j]==" ":
                         #print("j",j)
                         return -j*3
 
